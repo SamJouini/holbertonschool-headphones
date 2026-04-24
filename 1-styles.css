@@ -154,6 +154,7 @@ img {
 .site-header {
   position: relative;
   color: var(--color-white);
+  height: 800px;
 }
 
 /* Hero background behind header + hero */
@@ -334,12 +335,17 @@ img {
 
 /* Hero Section */
 .hero {
-  padding-block: 7rem 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;;
 }
 
 .hero_body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .hero_inner {
