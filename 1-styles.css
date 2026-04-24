@@ -338,7 +338,7 @@ img {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0;;
+  padding: 0;
 }
 
 .hero_body {
@@ -397,6 +397,7 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
+  min-height: 300px;
 }
 
 /* Card base */
@@ -407,6 +408,13 @@ img {
   text-align: center;
   line-height: var(--line-height-base);
   width: 13.125rem; /* 210px */
+}
+
+.card_icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 1rem;
 }
 
 /* Card text */
